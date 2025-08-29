@@ -1,6 +1,6 @@
 import cv2
 
-# Load a pre-trained classifier for people detection
+
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
@@ -41,3 +41,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
