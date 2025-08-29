@@ -32,7 +32,7 @@ while True:
         cv2.putText(frame, "ALERT: Overcrowding!", (10, 70),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
-    # Show the video feed
+    
     cv2.imshow("Crowd Monitoring", frame)
 
     # Exit on pressing 'q'
@@ -41,4 +41,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
